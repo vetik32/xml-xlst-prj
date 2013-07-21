@@ -1,0 +1,29 @@
+.articles {
+    list-style: none;
+    margin: 0;
+}
+
+.articles li {
+    cursor: pointer;
+}
+
+.articles li:hover {
+    text-decoration: underline;
+    background-color: lightgray;
+}
+
+.date {
+    color: gray;
+}
+
+.detailedText {
+    display: none;
+}
+
+.active .detailedText {
+    display: block;
+}
+
+.active .shortText {
+    display: none;
+}
